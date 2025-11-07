@@ -37,7 +37,8 @@ contract PharmaSupplyChain is AccessControl, ReentrancyGuard {
     // ============================================
     // DATA STRUCTURES
     // ============================================
-    
+    // small note for this section
+
     // Enum that represents where the product is in the supply chain 
     enum ProductStatus {
         Manufactured,
